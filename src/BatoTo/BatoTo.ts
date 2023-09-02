@@ -31,7 +31,7 @@ import {
     parseViewMore
 } from './BatoToParser'
 
-const BATO_DOMAIN = 'https://bato.to'
+const BATO_DOMAIN = 'https://battwo.com/latest?langs=en'
 
 export const BatoToInfo: SourceInfo = {
     version: '3.0.2',
@@ -39,7 +39,7 @@ export const BatoToInfo: SourceInfo = {
     icon: 'icon.png',
     author: 'Nicholas',
     authorWebsite: 'https://github.com/niclimcy',
-    description: 'Extension that pulls manga from bato.to',
+    description: 'Extension that pulls manga from battwo',
     contentRating: ContentRating.MATURE,
     websiteBaseURL: BATO_DOMAIN,
     sourceTags: [],
